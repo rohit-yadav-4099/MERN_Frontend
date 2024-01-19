@@ -1,0 +1,141 @@
+.videopage{
+    background-color: #f7f7f7;
+    font-family: Poppins,sans-serif;
+    /* margin-left: 5vh; */
+}
+
+.Video-container{
+    background: #d9f5f9 0 0 no-repeat padding-box;
+    min-height: 300px;
+    max-width: 1251px;
+    margin: auto;
+    display: flex;
+}
+
+.Video-container-left{
+    display: block;
+    margin: 0 auto;
+    width: 568px;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.Video-container-left-top{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 26px;
+    padding-bottom: 19px;
+    margin-top: 10px;
+    color: #00a5ec;
+}
+
+.Video-container-left-bottom{
+    font-size: 19px;
+    letter-spacing: .15px;
+    padding-bottom: 29px;
+    padding-right: 10px;
+    font-weight: 400;
+    color: #424242;
+}
+
+.Video-content-heading{
+    font-size: 18px;
+    color: #22559c;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.Video-content-heading ::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: -20px;
+    top: 80%;
+    height: 2px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #22559c;
+    margin: 11px auto;
+}
+
+.video-containerTwo{
+    margin: 0 auto;
+    max-width: 1251px;
+}
+
+.video-cards{
+    max-width: 1251px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.videoimges{
+    width: 360px;
+    min-height: 450px;
+    margin: 20px;
+    background: #fff 0 0 no-repeat padding-box;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.11372549019607843);
+    box-shadow: 0 3px 6px rgba(0,0,0,.11372549019607843);
+    position: relative;
+    border-radius: 10px;
+}
+
+.videoimg{
+    width: 94%;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+.videoContent{
+    padding: 15px 20px
+}
+
+.videoName{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.videopara{
+    margin-top: 7px;
+    font-size: 14px;
+    color: #858585;
+    letter-spacing: .5px;
+}
+.YTicon{
+    margin-left: 2vh;
+    margin-top: 4vh;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+
+    .Video-container{
+        min-height: 300px;
+        max-width: 1251px;
+        flex-direction: column-reverse
+    }
+
+    .Video-container-left-bottom{
+        font-size: 14px;
+        width: 50vh;
+        letter-spacing: 0px;
+        padding-bottom: 29px;
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .Video-container{
+        min-height: 300px;
+        max-width: 1251px;
+        flex-direction: column-reverse
+    }
+}

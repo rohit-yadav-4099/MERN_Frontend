@@ -1,0 +1,503 @@
+.MockTestFirstContainer{
+    background: transparent linear-gradient(180deg,#3969ad,#1d3557) 0 0 no-repeat padding-box;
+    min-height: 200px;
+}
+
+.MockTestFirstContainer-text{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1280px;
+    color: #fff;
+}
+
+.MockTestFirstContainer-text-left{
+    width: 100%;
+    
+}
+
+.MockTestFirstContainer-text-left-top{
+    font-size: 34px ;
+    font-weight: 600;
+    padding-top: 36px;
+    padding-bottom: 26px;
+
+}
+
+.MockTestFirstContainer-text-left-bottom{
+    width: 50%;
+    font-size: 16.2px;
+    letter-spacing: .14px;
+    line-height: 1.4;
+    padding-bottom: 29px;
+}
+
+
+/* ****    Featured Mock test *******/
+
+.featured-mock-test-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.featured-mock-test-heading{
+    color: #22559c;
+    font-size: 28px;
+}
+
+.featured-mock-test-main-Container-inner-heading{
+    text-align: center;
+    color: #ffa000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    margin: 15px 0 40px;
+}
+
+.featured-mock-test-main-Container-inner-heading::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 40%;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5f8dc4;
+}
+
+.featured-mock-test-main-Container-inner-heading::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 60%;
+    top: 0;
+    height: 3px;
+    width: 40%;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5f8dc4;
+    margin-left: auto;
+}
+
+.featured-mock-test-cards{
+    display: flex;
+    /* -ms-flex-pack: distribute; */
+    justify-content: space-around;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+}
+
+.mockCards{
+    width: 17em;
+    padding: 10px;
+    background: transparent linear-gradient(180deg,#e0ebf9,#fff 54%,#fff) 0 0 no-repeat padding-box;
+    -webkit-box-shadow: 0 10px 30px rgba(95,141,196,.2);
+    box-shadow: 0 10px 30px rgba(95,141,196,.2);
+    border-radius: 5px;
+    color: #707070;
+    margin: 0 auto 30px;
+}
+
+.mockCards-top{
+    display: flex;
+    margin-bottom: 10px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.mockCards-top-infoicon{
+    height: 25px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.mockCards-top-bar-share-button{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.mockCards-top-shareicon{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+
+.mockCards-middele{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.mockCards-middele-image{
+    height: 80px;
+    width: 70%;
+}
+
+.cardName{
+    text-align: center;
+    color: #3969ad;
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.cardContent{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardContent-left{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.cardContent-left-date{
+    margin-top: 20px;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.cardContent-left-date-heading{
+    font-size: 11px;
+    color: #707070;
+}
+
+.cardContent-left::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 100%;
+    top: 20%;
+    height: 1px;
+    width: 2px;
+    height: 62px;
+    margin-left: 12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #e0ebf9;
+}
+
+.cardContent-middle{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.testParticipants{
+    margin-top: 20px;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.testParticipants-heading{
+    font-size: 11px;
+    color: #707070;
+}
+
+.cardContent-middle::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 100%;
+    top: 20%;
+    height: 1px;
+    width: 2px;
+    height: 62px;
+    margin-left: 12px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #e0ebf9;
+}
+
+.cardContent-right{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.time{
+    margin-top: 20px;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.durationheading{
+    font-size: 11px;
+    color: #707070;
+}
+
+.cardbuy{
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cardbuybtn{
+    background: #22559c;
+    -webkit-box-shadow: 0 3px 6px rgba(95,141,196,.2);
+    box-shadow: 0 3px 6px rgba(95,141,196,.2);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 11px 33.7px;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+    text-decoration: none;
+    border: none;
+}
+
+
+/* ******  practice test  */
+
+.practicemock-testlist-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.practicemock-testlist-heading{
+    color: #22559c;
+    font-size: 28px;
+}
+
+.practicemock-testlist-container-topic-heading{
+    text-align: center;
+    color: #ffa000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    margin: 15px 0 40px;
+}
+
+.practicemock-testlist-container-topic-heading::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 40%;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5f8dc4;
+}
+
+.practicemock-testlist-container-topic-heading::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 60%;
+    top: 0;
+    height: 3px;
+    width: 40%;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5f8dc4;
+    margin-left: auto;
+}
+
+.practice-mock-Testlist-container-topicwise{
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.topic-wise-card{
+    width: 12em;
+    padding: 10px;
+    background: transparent linear-gradient(180deg,#c4dcf9,#fff 54%,#fff) 0 0 no-repeat padding-box;
+    box-shadow: 0 10px 30px rgba(95,141,196,.2);
+    border-radius: 5px;
+    color: #707070;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-wise-card-image{
+    text-align: center;
+    margin: 10px 0;
+    margin-left: 3.5vh;
+}
+
+.topic-wise-card-image-img{
+    height: 80px;
+    width: 100px;
+}
+
+.topic-wise-card-name{
+    text-align: center;
+    color: #3969ad;
+    font-weight: 500;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.topic-wise-card-btn{
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.topic-wise-card-buybtn{
+    background: #22559c;
+    -webkit-box-shadow: 0 3px 6px rgba(95,141,196,.2);
+    box-shadow: 0 3px 6px rgba(95,141,196,.2);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 11px 33.7px;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+    text-decoration: none;
+    border: none;
+}
+
+/* ** Comapny wise  */
+
+.practicemock-testlist-container-company-heading{
+    text-align: center;
+    color: #ffa000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    margin: 25px 0 40px;
+}
+
+.practicemock-testlist-container-company-heading::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 40%;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5f8dc4;
+}
+
+.practicemock-testlist-container-company-heading::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 60%;
+    top: 0;
+    height: 3px;
+    width: 40%;
+    margin-top: 11px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #5f8dc4;
+    margin-left: auto;
+}
+
+.practicemock-testlist-container-card-company{
+    Display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.practicemock-testlist-company-card{
+    width: 12em;
+    padding: 10px;
+    background: transparent linear-gradient(180deg,#ffe4b6,#fff 54%,#fff) 0 0 no-repeat padding-box;
+    box-shadow: 0 10px 30px rgba(95,141,196,.2);
+    border-radius: 5px;
+    color: #707070;
+    margin: 15px;
+}
+
+.practicemock-testlist-company-card-image{
+    text-align: center;
+    margin: 10px 0;
+    margin-left: 4vh;
+}
+
+.practicemock-testlist-company-card-image-img{
+    height: 80px;
+    width: 70%;
+    
+}
+
+.practicemock-testlist-company-card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.practicemock-testlist-company-card-buybtn{
+    background: #22559c;
+    box-shadow: 0 3px 6px rgba(95,141,196,.2);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 11px 33.7px;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px 0;
+    text-decoration: none;
+    border: none;
+}

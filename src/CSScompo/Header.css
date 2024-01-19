@@ -1,0 +1,47 @@
+/* .tabheadertwo{
+    display: none;
+} */
+
+.hiiUser{
+    color: #03A6EC;
+    font-weight: 500;
+}
+
+.mydashboard{
+    color: #036;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.logout{
+    color: #ff8787;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1050px){
+    /* .tabheadertwo{
+        display: show;
+    } */
+    .tabheader{
+        display: none;
+    }
+
+    .tabheadertwo{
+        display: show;
+    }
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    .tabheader{
+        display: none;
+    }
+
+    .tabheadertwo{
+        display: show;
+    }
+    
+}

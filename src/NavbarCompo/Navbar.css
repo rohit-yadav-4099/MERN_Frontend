@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbarParent{
+    position: relative;
+    
+}
+
+.navbar{
+    position: absolute;
+    height: 9.3vh;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,.05);
+    background-color: white;
+}
+
+.navbar img {
+    position: absolute;
+    width: 25.1vh;
+    height: 9.1vh;
+    left: 10em;
+    bottom: 2px;
+}
+
+.loginSignUpbtn{
+    position: relative;
+    left: 85em;
+    top: 5px;
+}
+
+.signbtn{
+    position: relative;
+    width: 8vh;
+    height: 3vh;
+    left: 5px;
+    background-image: linear-gradient(0deg,#f941a9,#ff219f);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* font-weight: bold; */
+}
+
+.signbtn:hover{
+    color: black;
+}
+
+.loginbtn{
+    position: relative;
+    width: 8vh;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid #ff219f;
+    background-color: white;
+    color: #f941a9;
+    /* font-weight: bold; */
+}
+
+.loginbtn:hover{
+    color: black;
+}
+
+.routing-list{
+    position: relative;
+    left: 60em;
+    /* right: -65em; */
+}
+
+.routing-list ul{
+    display: flex;
+    gap: 30px; 
+    
+}
